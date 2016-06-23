@@ -1,0 +1,191 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background-color: #fcfcfc;
+    color: #565a5c;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+
+p {
+    margin: 0;
+}
+
+/* Images */
+.profile-pic {
+    height:128px;
+    width: 128px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #43D594;
+}
+
+/* Navbar */
+.nav-logo {
+    margin: auto;
+    height: 100%;
+    width: auto;
+}
+
+.navbar-brand {
+    padding: 2px;
+}
+
+/* Templates/Structures */
+.heart-logo {
+    display: block;
+    margin: auto;
+}
+
+.logo-text {
+    font-size: 96px;
+}
+
+/* Card CSS */
+.card {
+    background-color: #efefef;
+    padding: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33);
+    margin-bottom: 15px;
+}
+
+.card-title {
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.card-top {
+    padding-bottom: 15px;
+    padding-left: 0px;
+    border-bottom: 1px solid #fcfcfc;
+}
+
+.card-bottom {
+    padding-top: 15px;
+    padding-left: 0px;
+}
+
+.card-footer {
+    margin-top: 15px;
+    padding-left: 0px;
+    border-top: 1px solid #fcfcfc;
+}
+
+
+.event-info {
+    border-right: 1px solid #fcfcfc;
+}
+
+.card-info {
+    font-size: 11px;
+}
+.card:hover {
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.33);
+}
+
+.large-block {
+    padding: 80px 0px 80px 0px;
+}
+
+.small-block {
+    padding: 40px 0px 40px 0px;
+}
+
+
+/* Custom Buttons */
+.btn {
+    color: #565a5c;
+    border-color: #565a5c;
+    border-width: 2px;
+    background-color: transparent;
+}
+
+.btn:hover {
+    color: #fff;
+    border-color: #565a5c;
+    background-color: #565a5c;
+}
+
+.btn:visited {
+    border-color: #565a5c;
+    border-width: 2px;
+    background-color: transparent;
+}
+
+.btn:active {
+    color: #fff;
+    border-color: #565a5c;
+    border-width: 2px;
+    background-color: transparent;
+}
+
+.btn-good:hover {
+    background-color: #43D594;
+}
+
+.btn-bad:hover {
+    background-color: #F4A4B0;
+}
+
+/* Progress Bars */
+.progress-bar-vertical {
+  width: 20px;
+  min-height: 200px;
+  display: flex;
+  align-items: flex-end;
+  float: left;
+  margin-top: 30px;
+}
+
+.progress-bar-vertical .progress-bar {
+  width: 100%;
+  height: 0;
+  -webkit-transition: height 0.6s ease;
+  -o-transition: height 0.6s ease;
+  transition: height 0.6s ease;
+}
+
+.center-div {
+    width: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Event Page */
+.event-page-title {
+    font-size: 5em;
+}
+
+/* Font Colors */
+.light-font {
+    color: #fcfcfc;
+}
+
+.pink-font {
+    color: #F4A4B0;
+}
+
+.green-font {
+    color: #43D594;
+}
+
+/* Background Colors */
+.pink {
+    background-color: #F4A4B0;
+}
+
+.light-hr {
+    border-color: #fcfcfc;
+}
+
+/* Tryna force a CSS update! */
+.dark-hr {
+    border-color: black;
+}
+
