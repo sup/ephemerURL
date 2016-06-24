@@ -64,4 +64,3 @@ libraries](https://developers.google.com/appengine/docs/python/tools/libraries27
 page for libraries that are already included in the SDK.  To include SDK
 libraries, add them in your app.yaml file. Other than libraries included in
 the SDK, only pure python libraries may be added to an App Engine project.
-
